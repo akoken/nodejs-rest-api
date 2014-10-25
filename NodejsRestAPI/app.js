@@ -26,6 +26,7 @@ app.use(passport.initialize());
 
 //Routes
 app.get('/api/v1/products', passport.authenticate('basic', {session:false}), products.getAll);
+app.get('/api/v1/product/:id', passport.authenticate('basic', {session:false}), products.getProductById);
 
 //Start the server
 app.set('port', process.env.PORT || 3000);
