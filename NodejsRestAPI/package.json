@@ -1,0 +1,14 @@
+{
+  "name":"NodejsRestAPI",
+  "version":"1.0.0",
+  "description":"Nodejs rest api sample.",
+  "main":"app.js",
+  "dependencies":
+  {
+    "express":"latest",
+    "body-parser":"latest",
+    "morgan":"latest",
+    "passport":"latest",
+    "passport-http":"latest"
+  }
+}
